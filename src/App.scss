@@ -1,3 +1,33 @@
 .App {
   text-align: center;
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+  }
+  .gameArea {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    height: 600px;
+  }
+
+  .gameAreaCenter {
+    justify-content: center;
+  }
+
+  .gameAreaRight {
+    justify-content: flex-end;
+  }
+
+  .gameAreaLeft {
+    justify-content: flex-start;
+  }
+  .gameAreaUp {
+    align-content: flex-start;
+  }
+  .gameAreaDown {
+    align-content: flex-end;
+  }
 }
