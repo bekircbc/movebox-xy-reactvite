@@ -1,16 +1,24 @@
 .App {
   text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .box {
-    width: 100px;
-    height: 100px;
-    background-color: navy;
-  }
   .gameArea {
     display: flex;
     justify-content: flex-end;
+    border: 1px solid orange !important;
     width: 600px;
     height: 600px;
+    position: relative;
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: navy;
+      position: absolute;
+    }
   }
 
   .gameAreaCenter {
